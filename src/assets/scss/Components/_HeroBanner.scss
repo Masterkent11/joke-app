@@ -1,0 +1,111 @@
+
+#heroBanner{
+
+    display: flex;
+    flex-direction: row;
+
+    .imgBanner{
+        width: 100%;
+
+        
+    }
+    .titleHeader{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+            position: relative;
+            // line-height: 4px;
+            
+            h1{
+             
+                font: $headerFont;
+                line-height: 0.2px;         
+                color: $pastel-brown2
+            }
+            h2{
+                width: 100%;
+                font: $bodyFont;
+                font-size: 20px;
+                color: $pastel-brown2;
+                text-align: center;
+            }
+            #form{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: auto;
+                justify-content: center;
+                position: static;           
+                
+                #search{
+                    width: 500px;
+                    height: 40px;
+                    background-color: transparent;
+                    // color: $white;
+                    color: black;
+                    border: solid 1px black;          
+                }
+                .button{
+                    height: 46px;
+                }
+                #searchIcon{
+                    position: relative;
+                    color: white;
+                    margin-left: 94%;
+                    cursor: pointer;
+                }
+    
+            }
+        }
+}
+
+
+// Media Queries
+@media  (width < 600px){
+    #heroBanner .titleHeader #form #search{
+        width: 300px;
+        height: 40px;
+    }
+}
+
+@media  (width < 380px){
+    #heroBanner .titleHeader #form #search{
+        width: 200px;
+        height: 25px;
+    }
+    #heroBanner .titleHeader #form .button{
+        height: 29px;
+    }
+
+    #heroBanner .titleHeader h1{
+        font-size: 30px;
+    }
+    #heroBanner .titleHeader h2{
+        font-size: 15px;
+     
+    }
+}
+
+@media  (width < 281px){
+    #heroBanner .titleHeader #form #search{
+        width: 174px;
+        height: 25px;
+    }
+    #heroBanner .titleHeader #form .button{
+        height: 29px;
+    }
+
+}
+
+@media  (width < 242px){
+    #heroBanner .titleHeader #from #search{
+        font-size: 14px;
+    }
+
+}
+
+
+

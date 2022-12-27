@@ -1,0 +1,37 @@
+
+.pagination{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+
+    .page-item{
+        width: 90px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow:  5px 5px 10px #cccccc,
+             -5px -5px 10px #f4f4f4;
+        cursor: pointer;
+    }
+
+}
+@media  (width < 600px){
+    .pagination{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: auto;
+        justify-content: center;
+        cursor: pointer;
+        
+        .page-item{
+            width: 10px;
+        }
+        
+    }
+   
+}

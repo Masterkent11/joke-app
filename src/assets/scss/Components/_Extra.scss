@@ -1,0 +1,119 @@
+#filter-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    justify-content: center;
+    margin: 30px;
+  }
+  #filter-btn button {
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #d1d1d1,-5px -5px 10px #fbfbfb;
+    width: 120px;
+    padding: 5px 0;
+    border: none;
+    cursor: pointer;
+  }
+  #filter-btn button.active {
+    background: $pale-orange;
+  }
+  
+  #joke-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 60px;
+    justify-content: center;
+    margin: 30px;
+  }
+  #joke-cards p {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+    
+  }
+  #joke-cards p.career {
+    background: $kiwi-green;
+    padding: 30px;
+  }
+  #joke-cards p.celebrity {
+    background: pink;
+    padding: 30px;
+    box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.dev {
+    background: violet;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.explicit {
+    background: $red;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.fashion {
+    background: $gray;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.food {
+    background: orange;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.history {
+    background: salmon;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.money {
+    background: $weird-green;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.movie {
+    background: goldenrod;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.music {
+    background: $light-gold;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.political {
+    background: $gray;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.religion {
+    background: lavender;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.science {
+    background: aquamarine;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.sport {
+    background: rebeccapurple;
+    color: $white;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.travel {
+    background: thistle;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+  #joke-cards p.uncategorized {
+    background: $skye-blue;
+    padding: 30px;
+      box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+  }
+
+
+ 
+

@@ -1,0 +1,18 @@
+// abstracts scss
+@import
+    '../scss/abstracts/variables';
+
+// components
+@import
+    'Components/Navbar',
+    'Components/Footer',
+    'Components/HeroBanner',
+    'Components/Menu',
+    'Components/Pagination',
+    'Components/Extra';
+    
+// Layout
+@import
+    'layout/App';
+
+
