@@ -1,3 +1,5 @@
+<h1><a href="https://superlative-muffin-d36cf6.netlify.app/">CLICK TO VIEW THE PROJECT<a/><h1/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
